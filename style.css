@@ -1,0 +1,34 @@
+:root {
+    /*Colors for the website. If we want we can just use these anytime we need a color for the website 
+    so we arent just using random new tones for every new class*/
+    --color-background: #FFFFFF;
+    --color-primary: #FF9F45;
+    --color-accent: #000000;
+    --color-text: #000000;
+    --color-secondary:#000000;
+}
+
+*
+{
+    margin:0px;
+    box-sizing:border-box;
+}
+
+header
+{
+    height:100px;
+    background-color:var(--color-primary);
+}  
+
+main 
+{
+    min-height:800px;
+    background-color:var(--color-background);
+}
+
+
+footer
+{
+    height:100px;
+    background-color:var(--color-secondary);
+}
